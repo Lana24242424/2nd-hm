@@ -37,3 +37,25 @@ ul li {
     text-decoration: none;
     color: white;
 }
+
+.heading {
+    border: 5px solid rgb(182, 182, 182);
+    background-color: rgb(182, 182, 182);
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.underline {
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+img {
+    width: 1500px;
+    height: 550px;
+    object-fit: cover;
+}
+
+
