@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border: 5px solid black;
+    height: 100px;
+    background: black;
+    border-bottom: 5px solid yellow;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 8px;
+
+}
+
+#logo a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
