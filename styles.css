@@ -1,6 +1,8 @@
 body {
     padding: 0;
-    margin: 10px;
+    margin: 15px;
+    font-family: 'Lato', sans-serif;
+  
 }
 
 header {
@@ -8,13 +10,11 @@ header {
     height: 100px;
     background: black;
     border-bottom: 5px solid yellow;
-}
-
-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 ul {
     list-style: none;
@@ -23,14 +23,14 @@ ul {
 
 ul li {
     padding: 8px;
-
 }
 
 
-img {
-    width: 1500px;
+.image img {
+    width: 1347px;
     height: 550px;
     object-fit: cover;
+    
 }
 
 footer {
@@ -65,9 +65,29 @@ footer p {
     text-decoration-color: yellow;
 }
 
+.on-top {
+    display: block;
+    background-color: rgba(255,255,255,0.9);
+    margin: 25px 25px 0 0;
+    padding: 25px;
+    width: 380px;
+    height: 250px;
+    border: 1px solid rgba(255,255,255,0.9);
+    text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    margin: 25px 25px 0 0;
+    position: absolute;
+    top: 350px; right: 40px;
+}
+
+.on-top p {
+    margin: 10px 10px;
+    padding: 10px;
+}
+
 .section-1 button {
     padding: 10px 10px;
-    width: 350px;
+    width: 300px;
     height: 60px;
     background-color: yellow;
     border: yellow;
@@ -75,11 +95,14 @@ footer p {
     border-radius: 6px;
 }
 
+.section-1 button:hover {
+    background-color: rgb(255, 217, 0);
+}
+
 .section-1 button a {
     text-decoration: none;
     font-size: 28px;
     color: black;
-  
 }
 
 .bottom-sections {
@@ -87,22 +110,29 @@ footer p {
     padding: 20px;
 }
 
+.border-right {
+    border-right: 1px solid rgb(159, 148, 148);
+}
+
 .bottom-sections button {
 padding: 10px 10px;
-width: 350px;
-padding: 15px 0;
+width: 300px;
 background-color: rgb(167, 162, 162);
 border: 1px solid rgb(167, 162, 162);
 border-bottom: 2px solid grey;
 border-radius: 6px;
 }
 
+.bottom-sections button:hover {
+    background-color: rgb(144, 161, 179);
+}
+
 .bottom-sections button a{
 text-decoration: none;
 font-size: 20px;
 color: black;
-
 }
+
 
 #logo a {
     text-decoration: none;
@@ -111,9 +141,6 @@ color: black;
     padding: 10px;
 }
 
-#on-top-of-the-image {
-    display: flex;
-}
 
 #sections {
 display: flex;
